@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <!-- (anything entered here doednot show on page) -->
+        <!-- metadata goes here -->
+        <!-- This is a title -->
+        <title> Login
+        </title>
+    </head>
+    <body>
+        <!-- note for me  -->
+        <h1>Register</h1>
+        <form action="https://www.wikipedia.org/">
+            <div>
+                <label for="1">Fist Name</label>
+                <input name="FS" id="1"type="text" placeholder="Garima" required>
+                <label for="2">Last Name</label>
+                <input name="LS" id="2"type="text" placeholder="Mangtani" required>
+            </div>
+            
+            <div>
+                <label for="M">Male</label>
+                <input name="gender" id="M" type="radio">
+                <label for="F">Female</label>
+                <input name="gender" id="F" type="radio">
+                <label for="O">Other</label>
+                <input name="gender" id="O" type="radio">
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input name ="email" id="mail"type="email" placeholder="your@email" required email>
+                <label for="PW">Password</label>
+                <input name= "password" type="password" id="PW" required minlength="5" maxlength="10">
+            </div>
+            <div>
+                Birthday:
+                <label for="MM">Month</label>
+            <select name="Month" id="MM">
+                <option>Jan</option>
+                <option >Feb</option>
+                <option>Mar</option>
+            </select>
+
+            <label for="DD">DAY</label>
+            <select name="DAY" id="DD">
+                <option>01</option>
+                <option >02</option>
+                <option>03</option>
+            </select>
+
+            <label for="YY">YEAR</label>
+            <select name="DAY" id="YY">
+                <option>1990</option>
+                <option >1991</option>
+                <option>1992</option>
+            </select>
+            </div>
+            <div>
+                <label for="tick">I agree to the terms and conditions</label>
+                <input id="tick" type="checkbox" required>
+            </div>
+            <button>Sumbit</button>
+        </form>
+        
+    </body>
+</html>
